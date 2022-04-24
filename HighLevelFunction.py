@@ -70,4 +70,4 @@ print('-'*20)
 #map(): 可以對iterable object中的所有elements做assigned operation，然後將其添加到一個新的object中
 l = [n for n in range(1, 11)]
 result = map(lambda i: i + 1, l)
-print(list(result))
+print(list(result)) #[2, 3, 4, 5, 6, 7, 8, 9, 10, 11] 
